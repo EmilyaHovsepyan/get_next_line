@@ -15,6 +15,9 @@
 This project teaches dynamic memory handling, file reading, and persistent state between function calls.
 
 ---
+## 📄 Subject PDF
+
+You can read the full subject [here](subject.pdf).
 
 ## 🔧 Prototype
 
