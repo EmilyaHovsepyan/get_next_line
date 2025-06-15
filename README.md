@@ -1,26 +1,24 @@
-# get_next_line
+# ⎇ get_next_line
 
-![42 Project](https://img.shields.io/badge/42%20School-Project-blue)
-![Language](https://img.shields.io/badge/language-C-informational)
-![License](https://img.shields.io/badge/status-Completed-success)
+![42 Yerevan](https://img.shields.io/badge/42_Yerevan-Project_%232-blueviolet)
+![C Language](https://img.shields.io/badge/Language-C-00599C?logo=c)
+![Status](https://img.shields.io/badge/Status-Validated-brightgreen)
+![Performance](https://img.shields.io/badge/Speed-Optimized-success)
+![Memory](https://img.shields.io/badge/Memory-Leak_Free-important)
 
-> **42 Yerevan Project** | 📚 Reading one line at a time from a file descriptor.
-
+> **Efficient line-by-line file reader** | 🚀 A sophisticated solution for buffered sequential file access in C
+> 📜 Reads lines of any length from file descriptors without loading entire files into memory
 ---
 
-## 📌 Description
+## 🌟 Project Highlights
 
-`get_next_line` is a function that reads from a file descriptor and returns one line at a time, including the newline character. It handles buffering, memory allocation, and edge cases like end-of-file (EOF).
-
-This project teaches dynamic memory handling, file reading, and persistent state between function calls.
-
----
-## 📄 Subject PDF
-
-You can read the full subject [here](subject.pdf).
-
-## 🔧 Prototype
+**get_next_line** implements an advanced buffering system to:
+- Read any file descriptor (files, stdin, sockets)
+- Maintain state between calls with static variables
+- Handle memory allocation optimally
+- Process files of unlimited size
+- Support multiple file descriptors simultaneously
 
 ```c
+// Function prototype
 char *get_next_line(int fd);
-
